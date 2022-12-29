@@ -2,10 +2,10 @@ var express = require('express');
 var app = express();
 var PORT = process.abort.PORT || 8080;
 var message = {
-    greetings: ""
+    greetings: "Hello world from marvelous Innocent at GitHub codespace. The Year is coming "
 }
 app.get('/', (req, res) => {
-    res.;
+    res.json();
 
 });
 
